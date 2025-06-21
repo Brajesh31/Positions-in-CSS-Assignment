@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky header</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Sevillana&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img {
+            width: 70px;
+            height: auto;
+            margin-left: 70px;
+        }
+        nav {
+            width: 100%;
+            height: 70px;
+            font-family: 'Poppins', sans-serif;
+            /* font-family: 'Sevillana', cursive; */
+            background-color: #474747;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            
+        }
+        nav a:hover {
+            color: azure;
+        }
+        nav div {
+            float: right;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 50px;
+        }
+        nav div a {
+            color: #fff;
+            margin-right: 40px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        nav div a.active {
+            color: rgb(92, 255, 220);
+        }
+        nav div a:last-child {
+            border: 2px solid rgb(122, 103, 50);
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+            <img src="media/LOGO.png" alt="RANDOM LOGO">
+            <div>
+                <a href="#" class="active">Home</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms and Condition</a>
+                <a href="#">Get Started</a>
+            </div>
+            
+        </nav>
+
+    <main>
+        <div>
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex recusandae praesentium doloribus necessitatibus? Quisquam ea deserunt harum expedita fugiat eligendi quo illo sint dolor libero sed sunt, vero veritatis praesentium error fugit architecto dignissimos tenetur saepe modi quidem repellendus? Quis eius alias vitae consequuntur officiis sint delectus dolorem consequatur necessitatibus? Repudiandae mollitia nostrum illo unde ducimus non. Dicta culpa voluptatem, vel necessitatibus pariatur doloribus libero unde voluptatum quaerat cum, natus quos tempora odio fuga. Ipsum id ducimus rem ullam tenetur? Eveniet nulla esse asperiores, ad iste quaerat nisi debitis excepturi impedit veritatis! Illo adipisci tempora inventore dolores laboriosam facilis reprehenderit totam nam consequatur veritatis voluptas, officiis distinctio ipsa? Sed voluptatum minima quisquam! Officiis quas fugiat ipsa delectus expedita, distinctio in alias fugit aliquid atque quasi totam consectetur consequuntur quod, enim sequi aliquam? Doloremque mollitia cupiditate repudiandae minima saepe quam iure, quod asperiores?</p>
+        </div>
+        <br>
+        <div>
+            <h3>Heading 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia nostrum illo unde ducimus non. Dicta culpa voluptatem, vel necessitatibus pariatur doloribus libero unde voluptatum quaerat cum, natus quos tempora odio fuga. Ipsum id ducimus rem ullam tenetur? Eveniet nulla esse asperiores, ad iste quaerat nisi debitis excepturi impedit veritatis! Illo adipisci tempora inventore dolores Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius dolore ipsam porro deserunt. Fugit impedit, saepe illum aliquid velit omnis natus quibusdam, nobis repellat adipisci aut esse sequi iure odio praesentium necessitatibus harum quo deserunt tenetur quos. Voluptatum, pariatur. Ratione, autem. Fuga ad voluptatem temporibus dolorem quaerat perspiciatis sint. laboriosam facilis reprehenderit totam nam consequatur veritatis voluptas, officiis distinctio ipsa? Sed voluptatum minima quisquam! Officiis quas fugiat ipsa delectus expedita, distinctio in alias fugit aliquid atque quasi totam consectetur consequuntur quod, enim sequi aliquam? Doloremque mollitia cupiditate repudiandae minima saepe quam iure, quod asperiores?</p>
+        </div>
+        <br>
+        <div>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia nostrum illo unde ducimus non. Dicta culpa voluptatem, vel necessitatibus pariatur doloribus libero unde voluptatum quaerat cum, natus quos tempora odio fuga. Ipsum id ducimus rem ullam tenetur? Eveniet nulla esse asperiores, ad iste quaerat nisi debitis excepturi impedit veritatis! Illo adipisci tempora inventore dolores laboriosam facilis reprehenderit totam nam consequatur veritatis voluptas, officiis distinctio ipsa? Sed voluptatum minima quisquam! Officiis quas fugiat ipsa delectus expedita, distinctio in alias fugit aliquid atque quasi totam consectetur consequuntur quod, enim sequi aliquam? Doloremque mollitia cupiditate repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim ab eum provident expedita neque sunt excepturi voluptatem voluptate necessitatibus quas recusandae, eligendi, esse fuga similique ut, quaerat iusto hic. Quisquam rerum hic totam ipsa repellendus rem. Iste molestias corporis enim voluptatum, aliquid esse ad quasi harum quas eos labore. minima saepe quam iure, quod asperiores?</p>
+        </div>
+        <br>
+        <div>
+            <h3>Heading 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia nostrum illo unde ducimus non. Dicta culpa voluptatem, vel necessitatibus pariatur doloribus libero unde voluptatum quaerat cum, natus quos tempora odio fuga. Ipsum id ducimus rem ullam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quaerat consequuntur libero incidunt aspernatur nostrum numquam aliquid similique ab hic quo labore ipsam, reiciendis ullam dolorum, pariatur asperiores sint omnis ut? A aut voluptatum, accusantium quam quibusdam atque hic illum commodi impedit delectus repudiandae optio natus necessitatibus. Odio, vitae architecto. tenetur? Eveniet nulla esse asperiores, ad iste quaerat nisi debitis excepturi impedit veritatis! Illo adipisci tempora inventore dolores laboriosam facilis reprehenderit totam nam consequatur veritatis voluptas, officiis distinctio ipsa? Sed voluptatum minima quisquam! Officiis quas fugiat ipsa delectus expedita, distinctio in alias fugit aliquid atque quasi totam consectetur consequuntur quod, enim sequi aliquam? Doloremque mollitia cupiditate repudiandae minima saepe quam iure, quod asperiores?</p>
+        </div>
+        <br>
+        <div>
+            <h3>Heading 5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia nostrum illo unde ducimus non. Dicta culpa voluptatem, vel necessitatibus pariatur doloribus libero unde voluptatum quaerat cum, natus quos tempora odio fuga. Ipsum id ducimus rem ullam tenetur? Eveniet nulla esse asperiores, ad iste quaerat nisi debitis excepturi impedit veritatis! Illo adipisci tempora inventore dolores laboriosam facilis reprehenderit totam nam consequatur veritatis voluptas, officiis distinctio ipsa? Sed voluptatum minima quisquam! Officiis quas fugiat ipsa delectus expedita, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam dolores ipsam, non a, cum tenetur quidem debitis odit, autem sint placeat aliquam voluptate corporis iusto quo animi dolorum. Dignissimos voluptates repellat cumque quasi rerum eveniet odio eos dolores facere accusantium magni fuga dolorem sed ad dolor, laborum ab soluta. distinctio in alias fugit aliquid atque quasi totam consectetur consequuntur quod, enim sequi aliquam? Doloremque mollitia cupiditate repudiandae minima saepe quam iure, quod asperiores?</p>
+        </div>
+        <br>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
